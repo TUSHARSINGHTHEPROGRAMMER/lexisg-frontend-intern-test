@@ -40,7 +40,7 @@ function App() {
         <div className="flex flex-col space-y-4">
           {query && (
             <div className="flex justify-end">
-              <div className="bg-gray-600 text-white  py-2 rounded-lg max-w-sm text-sm shadow">
+              <div className="bg-gray-600 text-white px-6 py-2 rounded-lg max-w-sm text-sm shadow">
                 <strong className="block mb-1">You:</strong>
                 {query}
               </div>
